@@ -33,7 +33,7 @@ p span {
   margin-bottom: 3px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1370px) {
   .lottie {
     display: none;
   }
