@@ -7,7 +7,7 @@
       speed="1"
       autoplay
     ></lottie-player>
-    <h2 class="fadeIn">LAUNDROMAT COMPANY</h2>
+    <h2 class="fadeIn">LAUNDROMAT<br />COMPANY</h2>
     <p class="mymove">
       <span>For machine - washable wool</span>
       <br />

@@ -57,7 +57,6 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: end;
-  height: 100vh;
 }
 
 @media screen and (max-width: 1030px) {
@@ -71,7 +70,6 @@ body {
 
   html,
   body {
-    margin-bottom: 2rem;
     overflow-x: hidden;
   }
 }
