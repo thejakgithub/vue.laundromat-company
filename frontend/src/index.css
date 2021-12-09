@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
+@font-face {
+  font-family: digital-7;
+  src: url(/fonts/digital-7.ttf);
+}
+
 .fadeIn {
   -webkit-animation: fadeIn linear 1.3s;
   -moz-animation: fadeIn linear 1.3s;
