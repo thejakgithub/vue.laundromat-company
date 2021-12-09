@@ -34,7 +34,9 @@ export default {
   methods: {
     lineNotify() {
       axios
-        .post("http://localhost:5000", { number: this.number })
+        .post("https://laundromat-company.herokuapp.com", {
+          number: this.number,
+        })
         .then((response) => {
           console.log(response);
         })

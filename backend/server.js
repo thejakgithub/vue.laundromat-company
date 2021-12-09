@@ -10,7 +10,8 @@ dotenv.config();
 app.set("trust proxy", 1);
 app.use(
   cors({
-    origin: ["http://localhost:8080"],
+    // origin: ["http://localhost:8080"],
+    origin: ["https://laundromat-company.netlify.app"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
