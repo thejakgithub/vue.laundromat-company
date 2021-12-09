@@ -67,9 +67,4 @@ body {
     justify-content: center;
     height: 100%;
   }
-
-  html,
-  body {
-    overflow-x: hidden;
-  }
 }
