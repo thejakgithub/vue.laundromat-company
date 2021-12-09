@@ -1,0 +1,74 @@
+/* ./src/index.css */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+.fadeIn {
+  -webkit-animation: fadeIn linear 1.3s;
+  -moz-animation: fadeIn linear 1.3s;
+  -o-animation: fadeIn linear 1.3s;
+  -ms-animation: fadeIn linear 1.3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mymove {
+  animation: mymove ease 1s;
+  position: relative;
+  -webkit-animation: mymove ease 1s;
+  -moz-animation: mymove ease 1s;
+  -o-animation: mymove ease 1s;
+  -ms-animation: mymove ease 1s;
+}
+@keyframes mymove {
+  from {
+    top: 25px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+  }
+}
