@@ -37,7 +37,7 @@ p span {
   margin-bottom: 3px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1030px) {
   .wrapper__title {
     transform: translate(0);
     position: static;
