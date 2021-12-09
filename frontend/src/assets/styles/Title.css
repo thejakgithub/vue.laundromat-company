@@ -37,13 +37,13 @@ p span {
   margin-bottom: 3px;
 }
 
-@media screen and (max-width: 1500px) {
+@media and (max-width: 1610px) and (orientation: landscape) {
   .wrapper__title {
     transform: translate(0);
     position: static;
   }
   .lottie {
-    margin-top: 0.7rem;
+    padding-top: 0.7rem;
   }
   h2 {
     margin-top: 1rem;
