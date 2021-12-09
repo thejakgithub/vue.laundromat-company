@@ -60,6 +60,20 @@ body {
   height: 100vh;
 }
 
+@media screen and (max-width: 1500px) {
+  .washingMachine {
+    display: flex;
+    margin: 3rem 0;
+    height: 100%;
+  }
+
+  html,
+  body {
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+  }
+}
+
 @media screen and (max-width: 1030px) {
   .washingMachine {
     display: flex;

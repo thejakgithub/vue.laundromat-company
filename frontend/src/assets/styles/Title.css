@@ -37,6 +37,19 @@ p span {
   margin-bottom: 3px;
 }
 
+@media screen and (max-width: 1500px) {
+  .wrapper__title {
+    transform: translate(0);
+    position: static;
+  }
+  .lottie {
+    margin-top: 0.7rem;
+  }
+  h2 {
+    margin-top: 1rem;
+  }
+}
+
 @media screen and (max-width: 1030px) {
   .wrapper__title {
     transform: translate(0);
