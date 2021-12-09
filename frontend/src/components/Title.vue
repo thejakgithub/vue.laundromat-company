@@ -12,9 +12,8 @@
       <span>For machine - washable wool</span>
       <br />
       Loads should be under 8 pounds. It is recommended using a neutral
-      detergent to
-      <br />
-      prevent damage to the cloth and to improve the washing results
+      detergent to prevent damage to the cloth and to improve the washing
+      results
     </p>
   </div>
 </template>
