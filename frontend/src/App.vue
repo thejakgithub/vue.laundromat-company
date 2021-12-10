@@ -1,7 +1,7 @@
 <template>
   <div>
     <Title />
-    <div class="washingMachine">
+    <div class="washingMachine__container">
       <WashingMachine :number="1" />
       <WashingMachine :number="2" />
       <WashingMachine :number="3" />

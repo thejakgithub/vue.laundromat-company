@@ -12,11 +12,11 @@
 
 // Machine
 
-$WM-width: 300px;
-$WM-height: 200px;
-$WM-borderRadius: 15px;
-$WM-topHeight: 70px;
-$WM-bottomHeight: 30px;
+$WM-width: 18.75rem;
+$WM-height: 12.5rem;
+$WM-borderRadius: 0.938rem;
+$WM-topHeight: 4.375rem;
+$WM-bottomHeight: 1.875rem;
 $WM-roationSpeed: 0.6s; // If changed, need to be updated in the JS as well
 
 // Colors
@@ -29,7 +29,7 @@ $WM-tubBackground: #453e57;
 // Effects
 
 $WM-insetShadowColor: rgba($WM-secondaryColor, 0.3);
-$WM-insetShadowSize: 15px;
+$WM-insetShadowSize: 0.938rem;
 
 // Controls
 
@@ -40,21 +40,20 @@ $WM-screenTextColor: lightgreen;
 // Door
 
 $WM-doorRatio: 2; // Higher numbers produce smaller size
-$WM-doorBorderSize: 20px;
+$WM-doorBorderSize: 1.25rem;
 
 $WM-doorRatio-big: 1.6; // Higher numbers produce smaller size
-$WM-doorBorderSize-big: 26px;
+$WM-doorBorderSize-big: 1.625rem;
 
 // WASHING-MACHINE ―――――――――――――――――――――――――
 .washing__container {
-  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .washing__number {
   font-size: 0.9em;
   font-weight: bold;
   position: absolute;
-
   font-family: "verdana";
   color: black;
   margin-right: 21rem;
@@ -73,7 +72,7 @@ $WM-doorBorderSize-big: 26px;
   width: $WM-width;
   height: $WM-height;
   border-radius: $WM-borderRadius;
-  border-top: 15px solid $WM-tertiaryColor;
+  border-top: 0.938rem solid $WM-tertiaryColor;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -81,7 +80,7 @@ $WM-doorBorderSize-big: 26px;
   overflow: hidden;
   box-shadow: inset -#{$WM-insetShadowSize} -#{$WM-insetShadowSize} 0 0
     $WM-insetShadowColor;
-  padding: ($WM-topHeight + 15px) 0 $WM-bottomHeight + 15px;
+  padding: ($WM-topHeight + 0.938rem) 0 $WM-bottomHeight + 0.938rem;
 
   &:before,
   &:after {
@@ -108,7 +107,7 @@ $WM-doorBorderSize-big: 26px;
   #controls {
     $WM-roundButtonSize: calc($WM-topHeight / $WM-controlsRatio);
     $WM-elementsWidth: calc($WM-width / 5);
-    $WM-shift: $WM-insetShadowSize + 15px;
+    $WM-shift: $WM-insetShadowSize + 0.938rem;
 
     // Screen
 
