@@ -1,6 +1,5 @@
 body {
   margin: 0;
-
   background: #d5eef8;
   background: #d5eef8;
   background: #d5eef8;
@@ -50,6 +49,7 @@ body {
   );
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#d5eef8', endColorstr='#a1dbef', GradientType=1);
   font-family: "Raleway", "sans-serif";
+  overflow-x: hidden;
 }
 
 html {
