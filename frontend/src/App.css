@@ -52,9 +52,11 @@ body {
   overflow-x: hidden;
 }
 
-html {
+html,
+body {
   overflow-x: hidden;
   min-height: 100%;
+  position: relative;
 }
 
 .washingMachine__container {
