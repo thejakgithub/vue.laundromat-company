@@ -10,14 +10,17 @@
     <div>
       <h2 class="fadeIn">LAUNDROMAT COMPANY</h2>
     </div>
-    <div class="lg:block flex lg:mb-0">
-      <img
-        src="../assets/img/qrcodeline.jpg"
-        alt="qrcodeline"
-        width="200"
-        height="200"
-        class="lg:absolute static top-0 right-0 mt-4 mr-4"
-      />
+    <div class="lg:block flex flex-col">
+      <div class="text-center">
+        <img
+          src="../assets/img/qrcodeline.jpg"
+          alt="qrcodeline"
+          width="200"
+          height="200"
+          class="lg:absolute static top-0 right-0 mt-4 mr-4"
+        />
+      </div>
+
       <p class="mymove">
         <span>For machine - washable wool</span>
         <br />
